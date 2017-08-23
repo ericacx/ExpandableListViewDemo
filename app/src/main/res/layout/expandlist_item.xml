@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_rl_bg"
+        android:background="@mipmap/aiqiyi"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:text="1个月黄金VIP"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_point"
+            android:text="2000积分"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item_name_vip"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="1个月爱奇艺黄金VIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_point_used"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="消耗2000积分"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/item_button_exchange"
+            android:text="立即兑换"
+            android:textSize="16sp"
+            android:textColor="@color/text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
